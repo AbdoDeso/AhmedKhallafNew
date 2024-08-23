@@ -1,0 +1,100 @@
+body {
+    width: 0 auto;
+    height: auto;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+ 
+.content img {
+    position: relative;
+    background-size:contain;
+    background-position:center;
+    display: block;
+    background-repeat: no-repeat;
+max-width: 90%;
+  margin: 0 auto  ;
+    
+	z-index: 2;
+  text-align: center;
+
+}
+#classes {
+  position: relative;
+  background-size:contain;
+  background-position:center;
+  display: block;
+  background-repeat: no-repeat;
+max-width: 90%;
+margin: 0 auto  ;
+  
+z-index: 2;
+text-align: center;
+  
+}
+
+
+.mediaViewInfo {
+  --web-view-name: Design;
+  --web-view-id: Design;
+  --web-scale-on-resize: true;
+  --web-center-horizontally: true;
+  --web-center-vertically: true;
+  --web-enable-deep-linking: true;
+}
+:root {
+  --web-view-ids: Design;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  scroll-behavior: smooth;
+}
+#Design  {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+
+}
+.designresp {
+  z-index: 5;
+}
+.designresp img {
+  position: relative;
+  background-size:contain;
+  background-position:center;
+  display: block;
+  background-repeat: no-repeat;
+  height: auto;
+max-width: 100%;  
+margin: 0 auto  ;
+  height: auto;
+  justify-content: center;
+  z-index: 1
+}
+.container button {
+  position: absolute;
+
+max-width: 30%;
+height: auto;
+  height: auto;
+  color: aliceblue;
+  margin-left: 150px;  
+
+  
+  z-index: 99;
+}
+#button1 button {
+margin: 0 auto;
+}
+#button2 button {
+margin: 50px auto;
+
+}
+.container button a {
+  color: aliceblue;
+ 
+}
